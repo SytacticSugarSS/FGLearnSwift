@@ -1,8 +1,14 @@
-//___FILEHEADER___
+//
+//  FGLearnSwiftUITests.swift
+//  FGLearnSwiftUITests
+//
+//  Created by 洪海睿 on 2020/9/14.
+//  Copyright © 2020 洪海睿. All rights reserved.
+//
 
 import XCTest
 
-class ___FILEBASENAMEASIDENTIFIER___: XCTestCase {
+class FGLearnSwiftUITests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

@@ -1,0 +1,6 @@
+framework module Pods_FGLearnSwiftTests {
+  umbrella header "Pods-FGLearnSwiftTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

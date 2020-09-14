@@ -1,0 +1,713 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		007DD9004E714C87FDFBA8BB /* Pods_FGLearnSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C377A27F551D83065BC15B06 /* Pods_FGLearnSwift.framework */; };
+		0AA4377B6951AAECFF2488E8 /* Pods_FGLearnSwift_FGLearnSwiftUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7CEA9CCC543213BA763E85E /* Pods_FGLearnSwift_FGLearnSwiftUITests.framework */; };
+		41A270CE12104736F2FE0B8F /* Pods_FGLearnSwiftTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4111EE22356C60B9E55E7763 /* Pods_FGLearnSwiftTests.framework */; };
+		A34FB3C3250F0C2800F7A637 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34FB3C2250F0C2800F7A637 /* AppDelegate.swift */; };
+		A34FB3C5250F0C2800F7A637 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34FB3C4250F0C2800F7A637 /* SceneDelegate.swift */; };
+		A34FB3C7250F0C2800F7A637 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34FB3C6250F0C2800F7A637 /* ViewController.swift */; };
+		A34FB3CA250F0C2800F7A637 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A34FB3C8250F0C2800F7A637 /* Main.storyboard */; };
+		A34FB3CC250F0C2A00F7A637 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A34FB3CB250F0C2A00F7A637 /* Assets.xcassets */; };
+		A34FB3CF250F0C2A00F7A637 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A34FB3CD250F0C2A00F7A637 /* LaunchScreen.storyboard */; };
+		A34FB3DA250F0C2A00F7A637 /* FGLearnSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34FB3D9250F0C2A00F7A637 /* FGLearnSwiftTests.swift */; };
+		A34FB3E5250F0C2B00F7A637 /* FGLearnSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34FB3E4250F0C2B00F7A637 /* FGLearnSwiftUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A34FB3D6250F0C2A00F7A637 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A34FB3B7250F0C2800F7A637 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A34FB3BE250F0C2800F7A637;
+			remoteInfo = FGLearnSwift;
+		};
+		A34FB3E1250F0C2B00F7A637 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A34FB3B7250F0C2800F7A637 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A34FB3BE250F0C2800F7A637;
+			remoteInfo = FGLearnSwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		094C92993E55B5490A20F90E /* Pods-FGLearnSwiftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FGLearnSwiftTests.release.xcconfig"; path = "Target Support Files/Pods-FGLearnSwiftTests/Pods-FGLearnSwiftTests.release.xcconfig"; sourceTree = "<group>"; };
+		28911C31AA27F40F6A057C4E /* Pods-FGLearnSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FGLearnSwift.release.xcconfig"; path = "Target Support Files/Pods-FGLearnSwift/Pods-FGLearnSwift.release.xcconfig"; sourceTree = "<group>"; };
+		4111EE22356C60B9E55E7763 /* Pods_FGLearnSwiftTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FGLearnSwiftTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E1597F0A3AFED9F67BE6C8A /* Pods-FGLearnSwift-FGLearnSwiftUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FGLearnSwift-FGLearnSwiftUITests.release.xcconfig"; path = "Target Support Files/Pods-FGLearnSwift-FGLearnSwiftUITests/Pods-FGLearnSwift-FGLearnSwiftUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7968C50081F9B85F4CAD7790 /* Pods-FGLearnSwift-FGLearnSwiftUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FGLearnSwift-FGLearnSwiftUITests.debug.xcconfig"; path = "Target Support Files/Pods-FGLearnSwift-FGLearnSwiftUITests/Pods-FGLearnSwift-FGLearnSwiftUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A34FB3BF250F0C2800F7A637 /* FGLearnSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FGLearnSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A34FB3C2250F0C2800F7A637 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A34FB3C4250F0C2800F7A637 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A34FB3C6250F0C2800F7A637 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A34FB3C9250F0C2800F7A637 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A34FB3CB250F0C2A00F7A637 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A34FB3CE250F0C2A00F7A637 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A34FB3D0250F0C2A00F7A637 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A34FB3D5250F0C2A00F7A637 /* FGLearnSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FGLearnSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A34FB3D9250F0C2A00F7A637 /* FGLearnSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FGLearnSwiftTests.swift; sourceTree = "<group>"; };
+		A34FB3DB250F0C2B00F7A637 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A34FB3E0250F0C2B00F7A637 /* FGLearnSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FGLearnSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A34FB3E4250F0C2B00F7A637 /* FGLearnSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FGLearnSwiftUITests.swift; sourceTree = "<group>"; };
+		A34FB3E6250F0C2B00F7A637 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B026B1169B261935077081E1 /* Pods-FGLearnSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FGLearnSwift.debug.xcconfig"; path = "Target Support Files/Pods-FGLearnSwift/Pods-FGLearnSwift.debug.xcconfig"; sourceTree = "<group>"; };
+		B2D0E4F42D08B258256E4713 /* Pods-FGLearnSwiftTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FGLearnSwiftTests.debug.xcconfig"; path = "Target Support Files/Pods-FGLearnSwiftTests/Pods-FGLearnSwiftTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C377A27F551D83065BC15B06 /* Pods_FGLearnSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FGLearnSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7CEA9CCC543213BA763E85E /* Pods_FGLearnSwift_FGLearnSwiftUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FGLearnSwift_FGLearnSwiftUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A34FB3BC250F0C2800F7A637 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				007DD9004E714C87FDFBA8BB /* Pods_FGLearnSwift.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A34FB3D2250F0C2A00F7A637 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41A270CE12104736F2FE0B8F /* Pods_FGLearnSwiftTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A34FB3DD250F0C2B00F7A637 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AA4377B6951AAECFF2488E8 /* Pods_FGLearnSwift_FGLearnSwiftUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4C84A4C87FE97479397DFFF7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C377A27F551D83065BC15B06 /* Pods_FGLearnSwift.framework */,
+				C7CEA9CCC543213BA763E85E /* Pods_FGLearnSwift_FGLearnSwiftUITests.framework */,
+				4111EE22356C60B9E55E7763 /* Pods_FGLearnSwiftTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A34FB3B6250F0C2800F7A637 = {
+			isa = PBXGroup;
+			children = (
+				A34FB3C1250F0C2800F7A637 /* FGLearnSwift */,
+				A34FB3D8250F0C2A00F7A637 /* FGLearnSwiftTests */,
+				A34FB3E3250F0C2B00F7A637 /* FGLearnSwiftUITests */,
+				A34FB3C0250F0C2800F7A637 /* Products */,
+				DFE8859664AB0AD05FD5F68F /* Pods */,
+				4C84A4C87FE97479397DFFF7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A34FB3C0250F0C2800F7A637 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A34FB3BF250F0C2800F7A637 /* FGLearnSwift.app */,
+				A34FB3D5250F0C2A00F7A637 /* FGLearnSwiftTests.xctest */,
+				A34FB3E0250F0C2B00F7A637 /* FGLearnSwiftUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A34FB3C1250F0C2800F7A637 /* FGLearnSwift */ = {
+			isa = PBXGroup;
+			children = (
+				A34FB3C2250F0C2800F7A637 /* AppDelegate.swift */,
+				A34FB3C4250F0C2800F7A637 /* SceneDelegate.swift */,
+				A34FB3C6250F0C2800F7A637 /* ViewController.swift */,
+				A34FB3C8250F0C2800F7A637 /* Main.storyboard */,
+				A34FB3CB250F0C2A00F7A637 /* Assets.xcassets */,
+				A34FB3CD250F0C2A00F7A637 /* LaunchScreen.storyboard */,
+				A34FB3D0250F0C2A00F7A637 /* Info.plist */,
+			);
+			path = FGLearnSwift;
+			sourceTree = "<group>";
+		};
+		A34FB3D8250F0C2A00F7A637 /* FGLearnSwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				A34FB3D9250F0C2A00F7A637 /* FGLearnSwiftTests.swift */,
+				A34FB3DB250F0C2B00F7A637 /* Info.plist */,
+			);
+			path = FGLearnSwiftTests;
+			sourceTree = "<group>";
+		};
+		A34FB3E3250F0C2B00F7A637 /* FGLearnSwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A34FB3E4250F0C2B00F7A637 /* FGLearnSwiftUITests.swift */,
+				A34FB3E6250F0C2B00F7A637 /* Info.plist */,
+			);
+			path = FGLearnSwiftUITests;
+			sourceTree = "<group>";
+		};
+		DFE8859664AB0AD05FD5F68F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B026B1169B261935077081E1 /* Pods-FGLearnSwift.debug.xcconfig */,
+				28911C31AA27F40F6A057C4E /* Pods-FGLearnSwift.release.xcconfig */,
+				7968C50081F9B85F4CAD7790 /* Pods-FGLearnSwift-FGLearnSwiftUITests.debug.xcconfig */,
+				6E1597F0A3AFED9F67BE6C8A /* Pods-FGLearnSwift-FGLearnSwiftUITests.release.xcconfig */,
+				B2D0E4F42D08B258256E4713 /* Pods-FGLearnSwiftTests.debug.xcconfig */,
+				094C92993E55B5490A20F90E /* Pods-FGLearnSwiftTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A34FB3BE250F0C2800F7A637 /* FGLearnSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A34FB3E9250F0C2B00F7A637 /* Build configuration list for PBXNativeTarget "FGLearnSwift" */;
+			buildPhases = (
+				E047D6A501EB6B1BC0591A15 /* [CP] Check Pods Manifest.lock */,
+				A34FB3BB250F0C2800F7A637 /* Sources */,
+				A34FB3BC250F0C2800F7A637 /* Frameworks */,
+				A34FB3BD250F0C2800F7A637 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FGLearnSwift;
+			productName = FGLearnSwift;
+			productReference = A34FB3BF250F0C2800F7A637 /* FGLearnSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A34FB3D4250F0C2A00F7A637 /* FGLearnSwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A34FB3EC250F0C2B00F7A637 /* Build configuration list for PBXNativeTarget "FGLearnSwiftTests" */;
+			buildPhases = (
+				96DB7288F5239B1B4295A18E /* [CP] Check Pods Manifest.lock */,
+				A34FB3D1250F0C2A00F7A637 /* Sources */,
+				A34FB3D2250F0C2A00F7A637 /* Frameworks */,
+				A34FB3D3250F0C2A00F7A637 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A34FB3D7250F0C2A00F7A637 /* PBXTargetDependency */,
+			);
+			name = FGLearnSwiftTests;
+			productName = FGLearnSwiftTests;
+			productReference = A34FB3D5250F0C2A00F7A637 /* FGLearnSwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A34FB3DF250F0C2B00F7A637 /* FGLearnSwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A34FB3EF250F0C2B00F7A637 /* Build configuration list for PBXNativeTarget "FGLearnSwiftUITests" */;
+			buildPhases = (
+				C0AB8A7532C9AB46088C8B3D /* [CP] Check Pods Manifest.lock */,
+				A34FB3DC250F0C2B00F7A637 /* Sources */,
+				A34FB3DD250F0C2B00F7A637 /* Frameworks */,
+				A34FB3DE250F0C2B00F7A637 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A34FB3E2250F0C2B00F7A637 /* PBXTargetDependency */,
+			);
+			name = FGLearnSwiftUITests;
+			productName = FGLearnSwiftUITests;
+			productReference = A34FB3E0250F0C2B00F7A637 /* FGLearnSwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A34FB3B7250F0C2800F7A637 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "洪海睿";
+				TargetAttributes = {
+					A34FB3BE250F0C2800F7A637 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					A34FB3D4250F0C2A00F7A637 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = A34FB3BE250F0C2800F7A637;
+					};
+					A34FB3DF250F0C2B00F7A637 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = A34FB3BE250F0C2800F7A637;
+					};
+				};
+			};
+			buildConfigurationList = A34FB3BA250F0C2800F7A637 /* Build configuration list for PBXProject "FGLearnSwift" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A34FB3B6250F0C2800F7A637;
+			productRefGroup = A34FB3C0250F0C2800F7A637 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A34FB3BE250F0C2800F7A637 /* FGLearnSwift */,
+				A34FB3D4250F0C2A00F7A637 /* FGLearnSwiftTests */,
+				A34FB3DF250F0C2B00F7A637 /* FGLearnSwiftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A34FB3BD250F0C2800F7A637 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A34FB3CF250F0C2A00F7A637 /* LaunchScreen.storyboard in Resources */,
+				A34FB3CC250F0C2A00F7A637 /* Assets.xcassets in Resources */,
+				A34FB3CA250F0C2800F7A637 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A34FB3D3250F0C2A00F7A637 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A34FB3DE250F0C2B00F7A637 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		96DB7288F5239B1B4295A18E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FGLearnSwiftTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C0AB8A7532C9AB46088C8B3D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FGLearnSwift-FGLearnSwiftUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E047D6A501EB6B1BC0591A15 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FGLearnSwift-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A34FB3BB250F0C2800F7A637 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A34FB3C7250F0C2800F7A637 /* ViewController.swift in Sources */,
+				A34FB3C3250F0C2800F7A637 /* AppDelegate.swift in Sources */,
+				A34FB3C5250F0C2800F7A637 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A34FB3D1250F0C2A00F7A637 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A34FB3DA250F0C2A00F7A637 /* FGLearnSwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A34FB3DC250F0C2B00F7A637 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A34FB3E5250F0C2B00F7A637 /* FGLearnSwiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A34FB3D7250F0C2A00F7A637 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A34FB3BE250F0C2800F7A637 /* FGLearnSwift */;
+			targetProxy = A34FB3D6250F0C2A00F7A637 /* PBXContainerItemProxy */;
+		};
+		A34FB3E2250F0C2B00F7A637 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A34FB3BE250F0C2800F7A637 /* FGLearnSwift */;
+			targetProxy = A34FB3E1250F0C2B00F7A637 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A34FB3C8250F0C2800F7A637 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A34FB3C9250F0C2800F7A637 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A34FB3CD250F0C2A00F7A637 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A34FB3CE250F0C2A00F7A637 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A34FB3E7250F0C2B00F7A637 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A34FB3E8250F0C2B00F7A637 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A34FB3EA250F0C2B00F7A637 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B026B1169B261935077081E1 /* Pods-FGLearnSwift.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 86DYW7MYE9;
+				INFOPLIST_FILE = FGLearnSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dagen.juweike;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A34FB3EB250F0C2B00F7A637 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28911C31AA27F40F6A057C4E /* Pods-FGLearnSwift.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 86DYW7MYE9;
+				INFOPLIST_FILE = FGLearnSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dagen.juweike;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A34FB3ED250F0C2B00F7A637 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2D0E4F42D08B258256E4713 /* Pods-FGLearnSwiftTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 86DYW7MYE9;
+				INFOPLIST_FILE = FGLearnSwiftTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dagen.juweike.FGLearnSwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FGLearnSwift.app/FGLearnSwift";
+			};
+			name = Debug;
+		};
+		A34FB3EE250F0C2B00F7A637 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 094C92993E55B5490A20F90E /* Pods-FGLearnSwiftTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 86DYW7MYE9;
+				INFOPLIST_FILE = FGLearnSwiftTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dagen.juweike.FGLearnSwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FGLearnSwift.app/FGLearnSwift";
+			};
+			name = Release;
+		};
+		A34FB3F0250F0C2B00F7A637 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7968C50081F9B85F4CAD7790 /* Pods-FGLearnSwift-FGLearnSwiftUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 86DYW7MYE9;
+				INFOPLIST_FILE = FGLearnSwiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dagen.juweike.FGLearnSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FGLearnSwift;
+			};
+			name = Debug;
+		};
+		A34FB3F1250F0C2B00F7A637 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E1597F0A3AFED9F67BE6C8A /* Pods-FGLearnSwift-FGLearnSwiftUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 86DYW7MYE9;
+				INFOPLIST_FILE = FGLearnSwiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dagen.juweike.FGLearnSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FGLearnSwift;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A34FB3BA250F0C2800F7A637 /* Build configuration list for PBXProject "FGLearnSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A34FB3E7250F0C2B00F7A637 /* Debug */,
+				A34FB3E8250F0C2B00F7A637 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A34FB3E9250F0C2B00F7A637 /* Build configuration list for PBXNativeTarget "FGLearnSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A34FB3EA250F0C2B00F7A637 /* Debug */,
+				A34FB3EB250F0C2B00F7A637 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A34FB3EC250F0C2B00F7A637 /* Build configuration list for PBXNativeTarget "FGLearnSwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A34FB3ED250F0C2B00F7A637 /* Debug */,
+				A34FB3EE250F0C2B00F7A637 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A34FB3EF250F0C2B00F7A637 /* Build configuration list for PBXNativeTarget "FGLearnSwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A34FB3F0250F0C2B00F7A637 /* Debug */,
+				A34FB3F1250F0C2B00F7A637 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A34FB3B7250F0C2800F7A637 /* Project object */;
+}

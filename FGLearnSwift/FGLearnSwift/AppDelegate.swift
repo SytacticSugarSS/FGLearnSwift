@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  Project 01 - StopWatch
+//  FGLearnSwift
 //
 //  Created by 洪海睿 on 2020/9/14.
 //  Copyright © 2020 洪海睿. All rights reserved.
