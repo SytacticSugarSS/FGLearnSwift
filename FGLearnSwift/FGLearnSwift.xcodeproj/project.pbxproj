@@ -8,6 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		007DD9004E714C87FDFBA8BB /* Pods_FGLearnSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C377A27F551D83065BC15B06 /* Pods_FGLearnSwift.framework */; };
+		A3406E5B25134A9600671AA3 /* FGNavViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3406E5A25134A9600671AA3 /* FGNavViewController.swift */; };
+		A3406E6125134E6800671AA3 /* UIColor+.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3406E6025134E6800671AA3 /* UIColor+.swift */; };
+		A3406E6325135A8200671AA3 /* FGBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3406E6225135A8200671AA3 /* FGBaseViewController.swift */; };
+		A3406E6525135B7D00671AA3 /* FGTabbarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3406E6425135B7D00671AA3 /* FGTabbarViewController.swift */; };
+		A3406E6C25135CAD00671AA3 /* FGSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3406E6B25135CAD00671AA3 /* FGSearchViewController.swift */; };
+		A3406E6E25135CBB00671AA3 /* FGMyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3406E6D25135CBB00671AA3 /* FGMyViewController.swift */; };
+		A3406E7025135CC300671AA3 /* FGNewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3406E6F25135CC300671AA3 /* FGNewsViewController.swift */; };
+		A3406E7225135CCE00671AA3 /* FGStarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3406E7125135CCE00671AA3 /* FGStarViewController.swift */; };
+		A3406E7425135CD600671AA3 /* FGHotViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3406E7325135CD600671AA3 /* FGHotViewController.swift */; };
+		A3406E7825136B1000671AA3 /* FGRepositoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3406E7625136B1000671AA3 /* FGRepositoryCell.swift */; };
+		A3406E7925136B1000671AA3 /* FGRepositoryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A3406E7725136B1000671AA3 /* FGRepositoryCell.xib */; };
 		A34FB3C3250F0C2800F7A637 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34FB3C2250F0C2800F7A637 /* AppDelegate.swift */; };
 		A34FB3C5250F0C2800F7A637 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34FB3C4250F0C2800F7A637 /* SceneDelegate.swift */; };
 		A34FB3CA250F0C2800F7A637 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A34FB3C8250F0C2800F7A637 /* Main.storyboard */; };
@@ -21,6 +32,17 @@
 		4111EE22356C60B9E55E7763 /* Pods_FGLearnSwiftTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FGLearnSwiftTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E1597F0A3AFED9F67BE6C8A /* Pods-FGLearnSwift-FGLearnSwiftUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FGLearnSwift-FGLearnSwiftUITests.release.xcconfig"; path = "Target Support Files/Pods-FGLearnSwift-FGLearnSwiftUITests/Pods-FGLearnSwift-FGLearnSwiftUITests.release.xcconfig"; sourceTree = "<group>"; };
 		7968C50081F9B85F4CAD7790 /* Pods-FGLearnSwift-FGLearnSwiftUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FGLearnSwift-FGLearnSwiftUITests.debug.xcconfig"; path = "Target Support Files/Pods-FGLearnSwift-FGLearnSwiftUITests/Pods-FGLearnSwift-FGLearnSwiftUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A3406E5A25134A9600671AA3 /* FGNavViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FGNavViewController.swift; sourceTree = "<group>"; };
+		A3406E6025134E6800671AA3 /* UIColor+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+.swift"; sourceTree = "<group>"; };
+		A3406E6225135A8200671AA3 /* FGBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FGBaseViewController.swift; sourceTree = "<group>"; };
+		A3406E6425135B7D00671AA3 /* FGTabbarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FGTabbarViewController.swift; sourceTree = "<group>"; };
+		A3406E6B25135CAD00671AA3 /* FGSearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FGSearchViewController.swift; sourceTree = "<group>"; };
+		A3406E6D25135CBB00671AA3 /* FGMyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FGMyViewController.swift; sourceTree = "<group>"; };
+		A3406E6F25135CC300671AA3 /* FGNewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FGNewsViewController.swift; sourceTree = "<group>"; };
+		A3406E7125135CCE00671AA3 /* FGStarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FGStarViewController.swift; sourceTree = "<group>"; };
+		A3406E7325135CD600671AA3 /* FGHotViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FGHotViewController.swift; sourceTree = "<group>"; };
+		A3406E7625136B1000671AA3 /* FGRepositoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FGRepositoryCell.swift; sourceTree = "<group>"; };
+		A3406E7725136B1000671AA3 /* FGRepositoryCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FGRepositoryCell.xib; sourceTree = "<group>"; };
 		A34FB3BF250F0C2800F7A637 /* FGLearnSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FGLearnSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A34FB3C2250F0C2800F7A637 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A34FB3C4250F0C2800F7A637 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -66,6 +88,7 @@
 		A3406E1025133D6000671AA3 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				A3406E7525136AB800671AA3 /* Cell */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -93,6 +116,11 @@
 		A3406E1325133D8600671AA3 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				A3406E6A25135C4D00671AA3 /* Search */,
+				A3406E6925135C3B00671AA3 /* My */,
+				A3406E6825135C3400671AA3 /* News */,
+				A3406E6725135C2D00671AA3 /* Star */,
+				A3406E6625135C1F00671AA3 /* Hot */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -102,6 +130,73 @@
 			children = (
 			);
 			path = libs;
+			sourceTree = "<group>";
+		};
+		A3406E5725134A4100671AA3 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				A3406E5A25134A9600671AA3 /* FGNavViewController.swift */,
+				A3406E6225135A8200671AA3 /* FGBaseViewController.swift */,
+				A3406E6425135B7D00671AA3 /* FGTabbarViewController.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		A3406E5F25134D9400671AA3 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				A3406E6025134E6800671AA3 /* UIColor+.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		A3406E6625135C1F00671AA3 /* Hot */ = {
+			isa = PBXGroup;
+			children = (
+				A3406E7325135CD600671AA3 /* FGHotViewController.swift */,
+			);
+			path = Hot;
+			sourceTree = "<group>";
+		};
+		A3406E6725135C2D00671AA3 /* Star */ = {
+			isa = PBXGroup;
+			children = (
+				A3406E7125135CCE00671AA3 /* FGStarViewController.swift */,
+			);
+			path = Star;
+			sourceTree = "<group>";
+		};
+		A3406E6825135C3400671AA3 /* News */ = {
+			isa = PBXGroup;
+			children = (
+				A3406E6F25135CC300671AA3 /* FGNewsViewController.swift */,
+			);
+			path = News;
+			sourceTree = "<group>";
+		};
+		A3406E6925135C3B00671AA3 /* My */ = {
+			isa = PBXGroup;
+			children = (
+				A3406E6D25135CBB00671AA3 /* FGMyViewController.swift */,
+			);
+			path = My;
+			sourceTree = "<group>";
+		};
+		A3406E6A25135C4D00671AA3 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				A3406E6B25135CAD00671AA3 /* FGSearchViewController.swift */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		A3406E7525136AB800671AA3 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				A3406E7625136B1000671AA3 /* FGRepositoryCell.swift */,
+				A3406E7725136B1000671AA3 /* FGRepositoryCell.xib */,
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 		A34FB3B6250F0C2800F7A637 = {
@@ -125,12 +220,14 @@
 		A34FB3C1250F0C2800F7A637 /* FGLearnSwift */ = {
 			isa = PBXGroup;
 			children = (
-				A3406E1525133D9B00671AA3 /* libs */,
+				A3406E5725134A4100671AA3 /* Base */,
+				A3406E1025133D6000671AA3 /* View */,
 				A3406E1325133D8600671AA3 /* Controller */,
 				A3406E1225133D7300671AA3 /* Model */,
 				A3406E1125133D6A00671AA3 /* Other */,
 				A3406E0F25133D6000671AA3 /* Tools */,
-				A3406E1025133D6000671AA3 /* View */,
+				A3406E1525133D9B00671AA3 /* libs */,
+				A3406E5F25134D9400671AA3 /* Extension */,
 			);
 			path = FGLearnSwift;
 			sourceTree = "<group>";
@@ -210,6 +307,7 @@
 			files = (
 				A34FB3CF250F0C2A00F7A637 /* LaunchScreen.storyboard in Resources */,
 				A34FB3CC250F0C2A00F7A637 /* Assets.xcassets in Resources */,
+				A3406E7925136B1000671AA3 /* FGRepositoryCell.xib in Resources */,
 				A34FB3CA250F0C2800F7A637 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -263,7 +361,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3406E6125134E6800671AA3 /* UIColor+.swift in Sources */,
+				A3406E6525135B7D00671AA3 /* FGTabbarViewController.swift in Sources */,
+				A3406E6C25135CAD00671AA3 /* FGSearchViewController.swift in Sources */,
+				A3406E7225135CCE00671AA3 /* FGStarViewController.swift in Sources */,
+				A3406E7425135CD600671AA3 /* FGHotViewController.swift in Sources */,
 				A34FB3C3250F0C2800F7A637 /* AppDelegate.swift in Sources */,
+				A3406E7825136B1000671AA3 /* FGRepositoryCell.swift in Sources */,
+				A3406E6325135A8200671AA3 /* FGBaseViewController.swift in Sources */,
+				A3406E6E25135CBB00671AA3 /* FGMyViewController.swift in Sources */,
+				A3406E7025135CC300671AA3 /* FGNewsViewController.swift in Sources */,
+				A3406E5B25134A9600671AA3 /* FGNavViewController.swift in Sources */,
 				A34FB3C5250F0C2800F7A637 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -408,10 +516,11 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B026B1169B261935077081E1 /* Pods-FGLearnSwift.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(EMBEDDED_CONTENT_CONTAINS_SWIFT)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 86DYW7MYE9;
-				INFOPLIST_FILE = FGLearnSwift/Info.plist;
+				INFOPLIST_FILE = FGLearnSwift/Other/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -427,10 +536,11 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 28911C31AA27F40F6A057C4E /* Pods-FGLearnSwift.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(EMBEDDED_CONTENT_CONTAINS_SWIFT)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 86DYW7MYE9;
-				INFOPLIST_FILE = FGLearnSwift/Info.plist;
+				INFOPLIST_FILE = FGLearnSwift/Other/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
