@@ -6,14 +6,9 @@ target 'FGLearnSwift' do
   use_frameworks!
 
   # Pods for FGLearnSwift
-
-  target 'FGLearnSwiftTests' do
-    inherit! :search_paths
-    # Pods for testing
-  end
-
-  target 'FGLearnSwiftUITests' do
-    # Pods for testing
-  end
-
+    pod 'SnapKit'
+    pod 'Alamofire'
+    pod 'MJRefresh'
+    pod 'MBProgressHUD'
+    pod 'SwiftyJSON'
 end

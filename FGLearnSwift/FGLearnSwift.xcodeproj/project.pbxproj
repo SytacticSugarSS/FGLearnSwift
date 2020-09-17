@@ -3,39 +3,17 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		007DD9004E714C87FDFBA8BB /* Pods_FGLearnSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C377A27F551D83065BC15B06 /* Pods_FGLearnSwift.framework */; };
-		0AA4377B6951AAECFF2488E8 /* Pods_FGLearnSwift_FGLearnSwiftUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7CEA9CCC543213BA763E85E /* Pods_FGLearnSwift_FGLearnSwiftUITests.framework */; };
-		41A270CE12104736F2FE0B8F /* Pods_FGLearnSwiftTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4111EE22356C60B9E55E7763 /* Pods_FGLearnSwiftTests.framework */; };
 		A34FB3C3250F0C2800F7A637 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34FB3C2250F0C2800F7A637 /* AppDelegate.swift */; };
 		A34FB3C5250F0C2800F7A637 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34FB3C4250F0C2800F7A637 /* SceneDelegate.swift */; };
-		A34FB3C7250F0C2800F7A637 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34FB3C6250F0C2800F7A637 /* ViewController.swift */; };
 		A34FB3CA250F0C2800F7A637 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A34FB3C8250F0C2800F7A637 /* Main.storyboard */; };
 		A34FB3CC250F0C2A00F7A637 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A34FB3CB250F0C2A00F7A637 /* Assets.xcassets */; };
 		A34FB3CF250F0C2A00F7A637 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A34FB3CD250F0C2A00F7A637 /* LaunchScreen.storyboard */; };
-		A34FB3DA250F0C2A00F7A637 /* FGLearnSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34FB3D9250F0C2A00F7A637 /* FGLearnSwiftTests.swift */; };
-		A34FB3E5250F0C2B00F7A637 /* FGLearnSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34FB3E4250F0C2B00F7A637 /* FGLearnSwiftUITests.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		A34FB3D6250F0C2A00F7A637 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A34FB3B7250F0C2800F7A637 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A34FB3BE250F0C2800F7A637;
-			remoteInfo = FGLearnSwift;
-		};
-		A34FB3E1250F0C2B00F7A637 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A34FB3B7250F0C2800F7A637 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A34FB3BE250F0C2800F7A637;
-			remoteInfo = FGLearnSwift;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		094C92993E55B5490A20F90E /* Pods-FGLearnSwiftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FGLearnSwiftTests.release.xcconfig"; path = "Target Support Files/Pods-FGLearnSwiftTests/Pods-FGLearnSwiftTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -46,17 +24,10 @@
 		A34FB3BF250F0C2800F7A637 /* FGLearnSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FGLearnSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A34FB3C2250F0C2800F7A637 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A34FB3C4250F0C2800F7A637 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A34FB3C6250F0C2800F7A637 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A34FB3C9250F0C2800F7A637 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A34FB3CB250F0C2A00F7A637 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A34FB3CE250F0C2A00F7A637 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A34FB3D0250F0C2A00F7A637 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A34FB3D5250F0C2A00F7A637 /* FGLearnSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FGLearnSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A34FB3D9250F0C2A00F7A637 /* FGLearnSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FGLearnSwiftTests.swift; sourceTree = "<group>"; };
-		A34FB3DB250F0C2B00F7A637 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A34FB3E0250F0C2B00F7A637 /* FGLearnSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FGLearnSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A34FB3E4250F0C2B00F7A637 /* FGLearnSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FGLearnSwiftUITests.swift; sourceTree = "<group>"; };
-		A34FB3E6250F0C2B00F7A637 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B026B1169B261935077081E1 /* Pods-FGLearnSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FGLearnSwift.debug.xcconfig"; path = "Target Support Files/Pods-FGLearnSwift/Pods-FGLearnSwift.debug.xcconfig"; sourceTree = "<group>"; };
 		B2D0E4F42D08B258256E4713 /* Pods-FGLearnSwiftTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FGLearnSwiftTests.debug.xcconfig"; path = "Target Support Files/Pods-FGLearnSwiftTests/Pods-FGLearnSwiftTests.debug.xcconfig"; sourceTree = "<group>"; };
 		C377A27F551D83065BC15B06 /* Pods_FGLearnSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FGLearnSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -69,22 +40,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				007DD9004E714C87FDFBA8BB /* Pods_FGLearnSwift.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A34FB3D2250F0C2A00F7A637 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				41A270CE12104736F2FE0B8F /* Pods_FGLearnSwiftTests.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A34FB3DD250F0C2B00F7A637 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0AA4377B6951AAECFF2488E8 /* Pods_FGLearnSwift_FGLearnSwiftUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,12 +56,58 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		A3406E0F25133D6000671AA3 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		A3406E1025133D6000671AA3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A3406E1125133D6A00671AA3 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				A34FB3C2250F0C2800F7A637 /* AppDelegate.swift */,
+				A34FB3C4250F0C2800F7A637 /* SceneDelegate.swift */,
+				A34FB3C8250F0C2800F7A637 /* Main.storyboard */,
+				A34FB3CB250F0C2A00F7A637 /* Assets.xcassets */,
+				A34FB3CD250F0C2A00F7A637 /* LaunchScreen.storyboard */,
+				A34FB3D0250F0C2A00F7A637 /* Info.plist */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		A3406E1225133D7300671AA3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A3406E1325133D8600671AA3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A3406E1525133D9B00671AA3 /* libs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = libs;
+			sourceTree = "<group>";
+		};
 		A34FB3B6250F0C2800F7A637 = {
 			isa = PBXGroup;
 			children = (
 				A34FB3C1250F0C2800F7A637 /* FGLearnSwift */,
-				A34FB3D8250F0C2A00F7A637 /* FGLearnSwiftTests */,
-				A34FB3E3250F0C2B00F7A637 /* FGLearnSwiftUITests */,
 				A34FB3C0250F0C2800F7A637 /* Products */,
 				DFE8859664AB0AD05FD5F68F /* Pods */,
 				4C84A4C87FE97479397DFFF7 /* Frameworks */,
@@ -117,8 +118,6 @@
 			isa = PBXGroup;
 			children = (
 				A34FB3BF250F0C2800F7A637 /* FGLearnSwift.app */,
-				A34FB3D5250F0C2A00F7A637 /* FGLearnSwiftTests.xctest */,
-				A34FB3E0250F0C2B00F7A637 /* FGLearnSwiftUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -126,33 +125,14 @@
 		A34FB3C1250F0C2800F7A637 /* FGLearnSwift */ = {
 			isa = PBXGroup;
 			children = (
-				A34FB3C2250F0C2800F7A637 /* AppDelegate.swift */,
-				A34FB3C4250F0C2800F7A637 /* SceneDelegate.swift */,
-				A34FB3C6250F0C2800F7A637 /* ViewController.swift */,
-				A34FB3C8250F0C2800F7A637 /* Main.storyboard */,
-				A34FB3CB250F0C2A00F7A637 /* Assets.xcassets */,
-				A34FB3CD250F0C2A00F7A637 /* LaunchScreen.storyboard */,
-				A34FB3D0250F0C2A00F7A637 /* Info.plist */,
+				A3406E1525133D9B00671AA3 /* libs */,
+				A3406E1325133D8600671AA3 /* Controller */,
+				A3406E1225133D7300671AA3 /* Model */,
+				A3406E1125133D6A00671AA3 /* Other */,
+				A3406E0F25133D6000671AA3 /* Tools */,
+				A3406E1025133D6000671AA3 /* View */,
 			);
 			path = FGLearnSwift;
-			sourceTree = "<group>";
-		};
-		A34FB3D8250F0C2A00F7A637 /* FGLearnSwiftTests */ = {
-			isa = PBXGroup;
-			children = (
-				A34FB3D9250F0C2A00F7A637 /* FGLearnSwiftTests.swift */,
-				A34FB3DB250F0C2B00F7A637 /* Info.plist */,
-			);
-			path = FGLearnSwiftTests;
-			sourceTree = "<group>";
-		};
-		A34FB3E3250F0C2B00F7A637 /* FGLearnSwiftUITests */ = {
-			isa = PBXGroup;
-			children = (
-				A34FB3E4250F0C2B00F7A637 /* FGLearnSwiftUITests.swift */,
-				A34FB3E6250F0C2B00F7A637 /* Info.plist */,
-			);
-			path = FGLearnSwiftUITests;
 			sourceTree = "<group>";
 		};
 		DFE8859664AB0AD05FD5F68F /* Pods */ = {
@@ -179,6 +159,7 @@
 				A34FB3BB250F0C2800F7A637 /* Sources */,
 				A34FB3BC250F0C2800F7A637 /* Frameworks */,
 				A34FB3BD250F0C2800F7A637 /* Resources */,
+				08F795B770164C565F84A386 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -188,44 +169,6 @@
 			productName = FGLearnSwift;
 			productReference = A34FB3BF250F0C2800F7A637 /* FGLearnSwift.app */;
 			productType = "com.apple.product-type.application";
-		};
-		A34FB3D4250F0C2A00F7A637 /* FGLearnSwiftTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = A34FB3EC250F0C2B00F7A637 /* Build configuration list for PBXNativeTarget "FGLearnSwiftTests" */;
-			buildPhases = (
-				96DB7288F5239B1B4295A18E /* [CP] Check Pods Manifest.lock */,
-				A34FB3D1250F0C2A00F7A637 /* Sources */,
-				A34FB3D2250F0C2A00F7A637 /* Frameworks */,
-				A34FB3D3250F0C2A00F7A637 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				A34FB3D7250F0C2A00F7A637 /* PBXTargetDependency */,
-			);
-			name = FGLearnSwiftTests;
-			productName = FGLearnSwiftTests;
-			productReference = A34FB3D5250F0C2A00F7A637 /* FGLearnSwiftTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		A34FB3DF250F0C2B00F7A637 /* FGLearnSwiftUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = A34FB3EF250F0C2B00F7A637 /* Build configuration list for PBXNativeTarget "FGLearnSwiftUITests" */;
-			buildPhases = (
-				C0AB8A7532C9AB46088C8B3D /* [CP] Check Pods Manifest.lock */,
-				A34FB3DC250F0C2B00F7A637 /* Sources */,
-				A34FB3DD250F0C2B00F7A637 /* Frameworks */,
-				A34FB3DE250F0C2B00F7A637 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				A34FB3E2250F0C2B00F7A637 /* PBXTargetDependency */,
-			);
-			name = FGLearnSwiftUITests;
-			productName = FGLearnSwiftUITests;
-			productReference = A34FB3E0250F0C2B00F7A637 /* FGLearnSwiftUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -239,14 +182,6 @@
 				TargetAttributes = {
 					A34FB3BE250F0C2800F7A637 = {
 						CreatedOnToolsVersion = 11.6;
-					};
-					A34FB3D4250F0C2A00F7A637 = {
-						CreatedOnToolsVersion = 11.6;
-						TestTargetID = A34FB3BE250F0C2800F7A637;
-					};
-					A34FB3DF250F0C2B00F7A637 = {
-						CreatedOnToolsVersion = 11.6;
-						TestTargetID = A34FB3BE250F0C2800F7A637;
 					};
 				};
 			};
@@ -264,8 +199,6 @@
 			projectRoot = "";
 			targets = (
 				A34FB3BE250F0C2800F7A637 /* FGLearnSwift */,
-				A34FB3D4250F0C2A00F7A637 /* FGLearnSwiftTests */,
-				A34FB3DF250F0C2B00F7A637 /* FGLearnSwiftUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -281,65 +214,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A34FB3D3250F0C2A00F7A637 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A34FB3DE250F0C2B00F7A637 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		96DB7288F5239B1B4295A18E /* [CP] Check Pods Manifest.lock */ = {
+		08F795B770164C565F84A386 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FGLearnSwift/Pods-FGLearnSwift-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
+			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-FGLearnSwiftTests-checkManifestLockResult.txt",
+				"${PODS_ROOT}/Target Support Files/Pods-FGLearnSwift/Pods-FGLearnSwift-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		C0AB8A7532C9AB46088C8B3D /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-FGLearnSwift-FGLearnSwiftUITests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FGLearnSwift/Pods-FGLearnSwift-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		E047D6A501EB6B1BC0591A15 /* [CP] Check Pods Manifest.lock */ = {
@@ -371,42 +263,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A34FB3C7250F0C2800F7A637 /* ViewController.swift in Sources */,
 				A34FB3C3250F0C2800F7A637 /* AppDelegate.swift in Sources */,
 				A34FB3C5250F0C2800F7A637 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A34FB3D1250F0C2A00F7A637 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A34FB3DA250F0C2A00F7A637 /* FGLearnSwiftTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A34FB3DC250F0C2B00F7A637 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A34FB3E5250F0C2B00F7A637 /* FGLearnSwiftUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		A34FB3D7250F0C2A00F7A637 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = A34FB3BE250F0C2800F7A637 /* FGLearnSwift */;
-			targetProxy = A34FB3D6250F0C2A00F7A637 /* PBXContainerItemProxy */;
-		};
-		A34FB3E2250F0C2B00F7A637 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = A34FB3BE250F0C2800F7A637 /* FGLearnSwift */;
-			targetProxy = A34FB3E1250F0C2B00F7A637 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		A34FB3C8250F0C2800F7A637 /* Main.storyboard */ = {
@@ -580,94 +442,6 @@
 			};
 			name = Release;
 		};
-		A34FB3ED250F0C2B00F7A637 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B2D0E4F42D08B258256E4713 /* Pods-FGLearnSwiftTests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 86DYW7MYE9;
-				INFOPLIST_FILE = FGLearnSwiftTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.dagen.juweike.FGLearnSwiftTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FGLearnSwift.app/FGLearnSwift";
-			};
-			name = Debug;
-		};
-		A34FB3EE250F0C2B00F7A637 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 094C92993E55B5490A20F90E /* Pods-FGLearnSwiftTests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 86DYW7MYE9;
-				INFOPLIST_FILE = FGLearnSwiftTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.dagen.juweike.FGLearnSwiftTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FGLearnSwift.app/FGLearnSwift";
-			};
-			name = Release;
-		};
-		A34FB3F0250F0C2B00F7A637 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7968C50081F9B85F4CAD7790 /* Pods-FGLearnSwift-FGLearnSwiftUITests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 86DYW7MYE9;
-				INFOPLIST_FILE = FGLearnSwiftUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.dagen.juweike.FGLearnSwiftUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = FGLearnSwift;
-			};
-			name = Debug;
-		};
-		A34FB3F1250F0C2B00F7A637 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6E1597F0A3AFED9F67BE6C8A /* Pods-FGLearnSwift-FGLearnSwiftUITests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 86DYW7MYE9;
-				INFOPLIST_FILE = FGLearnSwiftUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.dagen.juweike.FGLearnSwiftUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = FGLearnSwift;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -685,24 +459,6 @@
 			buildConfigurations = (
 				A34FB3EA250F0C2B00F7A637 /* Debug */,
 				A34FB3EB250F0C2B00F7A637 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		A34FB3EC250F0C2B00F7A637 /* Build configuration list for PBXNativeTarget "FGLearnSwiftTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A34FB3ED250F0C2B00F7A637 /* Debug */,
-				A34FB3EE250F0C2B00F7A637 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		A34FB3EF250F0C2B00F7A637 /* Build configuration list for PBXNativeTarget "FGLearnSwiftUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A34FB3F0250F0C2B00F7A637 /* Debug */,
-				A34FB3F1250F0C2B00F7A637 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
